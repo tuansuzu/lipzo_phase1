@@ -1,0 +1,25 @@
+{
+    "name": "enuke/socialogin",
+    "description": " enable facebook,twitter and google user login into Laravel powered site",
+    "homepage": "https://github.com/kamaljitenuke/enuke-social",
+    "keywords": ["oauth","socialogin","enuke"],
+    "authors": [
+        {
+            "name": "kamaljit",
+            "email": "kamaljit.laishram@enukesoftware.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            
+        ],
+        "psr-0": {
+            "Enuke\\Socialogin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

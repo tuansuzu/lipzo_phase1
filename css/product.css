@@ -1,0 +1,1283 @@
+
+/*------------------------------------------------------------
+--------------------PRODUCT-CUSTOM-NAV-TABS-------------------
+-------------------------------------------------------------*/
+.nav-tabs{
+  border-bottom:none;
+}
+.nav-tabs>li{float:left;margin-bottom:-1px;zoom:1;}
+.nav-tabs>li>a{
+  padding: 10px 50px;
+  margin-right:8px;
+  line-height:1.428571429;
+  border:none;
+  border-radius:none;
+  text-indent: -99999px;
+}
+
+.nav-tabs>li>a[href='#for-man']{
+  background: url('../images/products/crystal-love-for-man.png') no-repeat 50% 50%;
+  zoom:1;
+  -moz-transition:none;
+  -webkit-transition:none;
+  transition:none;
+}
+
+.nav-tabs>li>a[href='#for-man']:hover,
+.nav-tabs>li.active>a[href='#for-man'],
+.nav-tabs>li.active>a[href='#for-man']:hover,
+.nav-tabs>li.active>a[href='#for-man']:focus{
+  background: url('../images/products/crystal-love-for-man-hover.png') no-repeat 50% 50%;
+  zoom:1;
+  -moz-transition:none;
+  -webkit-transition:none;
+  transition:none;
+}
+
+.nav-tabs>li>a[href='#for-girl']{
+  background: url('../images/products/crystal-love-for-girl.png') no-repeat 50% 50%;
+  zoom:1;
+  -moz-transition:none;
+  -webkit-transition:none;
+  transition:none;
+}
+
+.nav-tabs>li>a[href='#for-girl']:hover,
+.nav-tabs>li.active>a[href='#for-girl'],
+.nav-tabs>li.active>a[href='#for-girl']:hover,
+.nav-tabs>li.active>a[href='#for-girl']:focus{
+  background: url('../images/products/crystal-love-for-girl-hover.png') no-repeat 50% 50%;
+  zoom:1;
+  -moz-transition:none;
+  -webkit-transition:none;
+  transition:none;
+}
+
+.nav-tabs>li>a:hover,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus
+{
+  border:none;
+
+}
+.nav-tabs.nav-justified{width:100%;border-bottom:0}
+.nav-tabs.nav-justified>li{float:none}
+.nav-tabs.nav-justified>li>a{text-align:center}
+
+@media(min-width:768px){
+  .nav-tabs.nav-justified>li{display:table-cell;width:1%}
+}
+  .nav-tabs.nav-justified>li>a{margin-right:0;border-bottom:1px solid #ddd}
+  .nav-tabs.nav-justified>.active>a{border-bottom-color:#fff}
+
+
+/*------------------------------------------------------------
+-----------------PRODUCT-CUSTOM-TAB-CONTENT-------------------
+-------------------------------------------------------------*/
+ #left-main-banner .left-main-banner-wrapper{
+    margin-left: 40px;
+    width: 412px;
+ }
+
+ #left-main-banner .left-main-banner-wrapper .lipzo-logo{
+   display: block;
+   margin: 0 auto;
+   padding-bottom: 20px;
+   margin-top: -20px;
+ }
+
+.crystal-love-section{
+  width: 412px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.crystal-love-section .description{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.crystal-love-section .nav-tabs li{
+ width: 153px;
+ height: 58px;
+}
+
+.crystal-love-section .nav-tabs>li:first-child{
+  margin-right: 85px;
+  margin-left: 10px;
+  padding-bottom: 8px;
+}
+
+.crystal-love-section .nav-tabs>li:last-child{
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.crystal-love-section .tab-content{
+  width: 412px;
+  height: 370px;
+  background: rgba(121,0,0,0.5);
+  display:block;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.crystal-love-section .tab-content .tab-pane ul{
+  padding: 12px 20px 12px 20px;
+}
+  
+.crystal-love-section .tab-content .tab-pane ul li{
+  list-style-position: inside;
+  margin-bottom: 8px;
+}
+
+.crystal-love-section .tab-content #for-man:before{
+  content: ' ';
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: rgba(121,0,0,0.5);
+  top: 38px;
+  left: 10%;
+}
+
+.crystal-love-section .tab-content #for-girl:before{
+  content: ' ';
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: rgba(121,0,0,0.5);
+  top: 38px;
+  left: 72%;
+}
+
+/*------------------------------------------------------------
+--------------------PRODUCT-CUSTOM-BUTTON---------------------
+-------------------------------------------------------------*/
+.btn-custom {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.btn-custom:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+.btn-custom:hover,.btn-custom:focus{color:#333;text-decoration:none}
+.btn-custom:active,.btn-custom.active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);box-shadow:inset 0 3px 5px rgba(0,0,0,0.125)}
+.btn-custom.disabled,.btn-custom[disabled],fieldset[disabled] .btn-custom{pointer-events:none;cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none}
+
+.btn-custom.btn-custom-product {
+  background-color: #fff;
+  width: 308px;
+  height: 116px;
+  border-radius: 20px;
+  text-indent: -9999px;
+  margin-bottom: 15px;
+}
+
+.btn-custom.btn-custom-product:hover,
+.btn-custom.btn-custom-product:focus
+.btn-custom.btn-custom-product.active {
+  border: none; 
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(252, 117, 117, .75);
+  -moz-box-shadow: 0px 0px 30px 5px rgba(252, 117, 117, .75);
+  box-shadow: 0px 0px 30px 5px rgba(252, 117, 117, .75);
+}
+
+.btn-custom.btn-custom-product.pro-for-man { 
+  background: url('../images/products/pro-for-man-button.png') no-repeat;
+  background-color: #fff;
+}
+
+.btn-custom.btn-custom-product.ruby { 
+  background: url('../images/products/ruby-button.png') no-repeat;
+  background-color: #fff;
+}
+
+.btn-custom.btn-custom-product.wow { 
+  background: url('../images/products/wow-button.png') no-repeat;
+  background-color: #fff;
+}
+
+.btn-custom.btn-custom-product.flex { 
+  background: url('../images/products/flex-button.png') no-repeat;
+  background-color: #fff;
+}
+
+.btn-custom.btn-custom-product.kids2 { 
+  background: url('../images/products/kids2-button.png') no-repeat;
+  background-color: #fff;
+}
+
+.btn-custom.btn-custom-product.crystal-kids { 
+  background: url('../images/products/crystal-kids-button.png') no-repeat;
+  background-color: #fff;
+}
+
+
+/*------------------------------------------------------------
+----------------------PRODUCT-MAIN-BANNER------------------------
+-------------------------------------------------------------*/
+#main-container{
+  overflow: hidden;
+}
+
+#product-main-banner {
+  position: relative;
+  background-image: url(../images/products/product-banner-bg.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 100px 0 10px 0;
+  color: #fff;
+}
+
+#product-main-banner .lipzo-logo{
+ margin: 0;
+ padding: 0;
+ margin-top: -30px;
+ margin-bottom: 15px;
+}
+
+#product-main-banner .crystal-love-section{
+  font-size: 13px;
+  text-align: left;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#product-main-banner .crystal-love-section .tab-pane.active{
+  margin: 0 auto;
+  display: block;
+}
+
+
+#product-main-banner .product-description{
+ font-size: 13px;
+ text-align: left;
+}
+
+#product-main-banner>.col-sm-5{
+ padding-right: 0;
+ margin-right: 0;
+}
+
+#product-main-banner .picture-section .picture1{
+ position: absolute;
+ top: 195px;
+ left: 95px;
+}
+
+#product-main-banner .picture-section .picture2{
+ position: absolute;
+ top: -45px;
+ left: 20px;
+}
+
+#product-main-banner .picture-section .small-star{
+  position: absolute;
+  top: -50px;
+  left: 20px;
+-webkit-animation: blink 2s infinite alternate 4s; /* Safari 4+ */
+  -moz-animation:    blink 2s infinite alternate 4s; /* Fx 5+ */
+  -o-animation:      blink 2s infinite alternate 4s; /* Opera 12+ */
+  animation:         blink 2s infinite alternate 4s; /* IE 10+, Fx 29+ */
+}
+
+#product-main-banner .picture-section .big-star{
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  -webkit-animation: blink 2s infinite alternate 6s; /* Safari 4+ */
+  -moz-animation:    blink 2s infinite alternate 6s; /* Fx 5+ */
+  -o-animation:      blink 2s infinite alternate 6s; /* Opera 12+ */
+  animation:         blink 2s infinite alternate 6s; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes blink {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes blink {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes blink {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+/*------------------------------------------------------------
+---------------------PRODUCT-MAIN-CONTENT------------------------
+-------------------------------------------------------------*/
+#product-main-content{
+ padding: 0px;
+ padding-bottom: 30px;
+ background-color: #861217;
+}
+
+#product-main-content .product-buttons{
+ margin-top: 0px;
+}
+
+#product-main-content .product-section {
+  color: #7f7f7f;
+  font-size: 13px;
+}
+
+#product-main-content .product-section .product-item {
+  background: url('../images/products/product-box.png') no-repeat;
+  background-size: cover;
+  width: 975px;
+  height: 458px;
+  margin-left: -18px;
+  margin-bottom: 5px;
+}
+
+#product-main-content .product-section .product-item .product-headline{
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+#product-main-content .product-section .product-item ul.right-desc{
+  padding-left: 0;
+}
+
+#product-main-content .product-section .product-item ul.left-desc{
+  padding-left: 25px;
+}
+
+#product-main-content .product-section .product-item ul.left-desc li,
+#product-main-content .product-section .product-item ul.right-desc li{
+  margin-bottom: 5px;
+  list-style-position: inside;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#product-main-content .product-section .product-item{
+  color:#707070;
+}
+
+#product-main-content .product-section .product-item strong{
+  color:#4c4c4c;
+}
+
+#product-main-content .product-section .product-item .product-headline ul li.product-name img{
+  padding-top: 13px;
+  padding-left: 8px;
+}
+
+#product-main-content .product-section .product-item .product-headline ul li,
+#product-main-content .product-section .product-item .product-icons ul li{
+ list-style-type: none;
+ list-style: none;
+ display: inline-block;
+}
+
+#product-main-content .product-section .product-item .product-icons{
+ position: absolute;
+ right: 50px;
+ top: 60px;
+}
+
+#product-main-content .product-section .product-item .product-icons ul li{
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+#product-main-content .product-section .product-item .product-icons ul li p{
+  font-size: 11px;
+  line-height: 14px;
+  width: 130px;
+  height: 280px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#product-main-content .product-section .product-item .product-icons ul li img{
+ margin: 0 auto;
+ display: block;
+}
+
+#product-main-content .product-section .product-item .product-picture{
+ position: absolute;
+ right: 50px;
+ top: 320px;
+}
+
+/*------------------------ PRODUCT ITEM & RUBY -------------------------*/
+
+
+#product-main-content .product-section #ruby.product-item .product-picture{
+ right: 40px;
+ top: 250px;
+}
+
+#product-main-content .product-section #ruby.product-item .product-icons{
+ right: 120px;
+ top: 60px;
+}
+
+/*------------------------ PRODUCT ITEM & WOW -------------------------*/
+
+
+#product-main-content .product-section #wow.product-item .product-picture{
+ right: 60px;
+ top: 280px;
+}
+
+#product-main-content .product-section #wow.product-item .product-icons{
+ right: 100px;
+ top: 60px;
+}
+
+
+/*------------------------ PRODUCT ITEM & FLEX -------------------------*/
+
+
+#product-main-content .product-section #flex.product-item .product-picture{
+ right: 60px;
+ top: 280px;
+}
+
+#product-main-content .product-section #flex.product-item .product-icons{
+ right: 90px;
+ top: 60px;
+}
+
+/*------------------------ PRODUCT ITEM & KIDS2 -------------------------*/
+
+
+#product-main-content .product-section #kids2.product-item .product-picture{
+ right: 100px;
+ top: 20px;
+}
+
+#product-main-content .product-section #kids2.product-item .product-icons{
+ right: 320px;
+ top: 50px;
+}
+
+#product-main-content .product-section #kids2.product-item .product-icons ul li p{
+  width: 230px;
+}
+
+/*-------------------- PRODUCT ITEM & CRYSTAL-KIDS -----------------------*/
+
+
+#product-main-content .product-section #crystal-kids.product-item .product-picture{
+ right: 60px;
+ top: 250px;
+}
+
+#product-main-content .product-section #crystal-kids.product-item .product-icons{
+ right: 65px;
+ top: 50px;
+}
+
+#product-main-content .product-section #crystal-kids.product-item .product-icons ul li p{
+  width: 230px;
+}
+
+
+/*------------------------------------------------------------
+-------------------------RESPONSIVE---------------------------
+-------------------------------------------------------------*/
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ 
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Betwwen Small to Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  /*------------------------------------------------------------
+  ---------------------PRODUCT-MAIN-CONTENT---------------------
+  -------------------------------------------------------------*/
+ #product-main-banner .picture-section .picture1{
+ top: 310px;
+ left: 145px;
+ width: 50%;
+}
+
+#product-main-banner .picture-section .picture2,
+#product-main-banner .picture-section .small-star,
+#product-main-banner .picture-section .big-star{
+  width: 140%;
+  top: 120px;
+  left: 70px;
+}
+  
+  #product-main-content .product-buttons div.col-xs-6 {
+  padding: 0;
+  margin: 0;
+}
+
+  .btn-custom.btn-custom-product {
+    width: 224px;
+    height: 90px;
+    margin: 0px 0px 22px 0px;
+  }
+
+  .btn-custom.btn-custom-product.pro-for-man,
+  .btn-custom.btn-custom-product.ruby,
+  .btn-custom.btn-custom-product.wow,
+  .btn-custom.btn-custom-product.flex,
+  .btn-custom.btn-custom-product.kids2,
+  .btn-custom.btn-custom-product.crystal-kids { 
+   background-position: 50%;
+   background-size: 100%;
+  }
+
+  #product-main-content .product-section .product-item {
+    background: transparent;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+  }
+
+  #product-main-content .product-section .product-item .product-headline{
+    padding-top: 32px;
+  }
+
+  /* Pro for man */ 
+
+  #product-main-content .product-section #pro-for-man.product-item .product-picture{
+   left: 280px;
+  }
+
+  #product-main-content .product-section #pro-for-man.product-item .product-picture img{
+   height: 70px;
+  }
+
+  #product-main-content .product-section #pro-for-man.product-item .product-icons img{
+   height: 80px;
+  }
+
+  #product-main-content .product-section #pro-for-man.product-item .product-icons{
+   right: 50px;
+   top: 55px;
+  }
+
+  #product-main-content .product-section #pro-for-man.product-item .product-icons ul li p{
+    width: 90px;
+    height: 280px;
+  }
+
+  /* ruby */
+
+  #product-main-content .product-section #ruby.product-item .product-picture{
+   left: 280px;
+  }
+
+  #product-main-content .product-section #ruby.product-item .product-picture img{
+   height: 130px;
+  }
+
+  #product-main-content .product-section #ruby.product-item .product-icons img{
+   height: 80px;
+  }
+
+  #product-main-content .product-section #ruby.product-item .product-icons{
+   right: 80px;
+   top: 55px;
+  }
+
+  #product-main-content .product-section #ruby.product-item .product-icons ul li p{
+    width: 120px;
+    height: 280px;
+  }
+
+  /* wow */
+
+  #product-main-content .product-section #wow.product-item .product-headline ul li.product-name img{
+    padding-top: 6px;
+  }
+
+  #product-main-content .product-section #wow.product-item .product-picture{
+   left: 280px;
+  }
+
+  #product-main-content .product-section #wow.product-item .product-icons img{
+   height: 70px;
+  }
+
+  #product-main-content .product-section #wow.product-item .product-icons{
+   right: 40px;
+   top: 50px;
+  }
+
+  #product-main-content .product-section #wow.product-item .product-icons ul li p{
+    width: 120px;
+    height: 280px;
+  }
+
+
+  /* flex */
+
+  #product-main-content .product-section #flex.product-item .product-headline ul li.product-name img{
+    padding-top: 6px;
+  }
+
+  #product-main-content .product-section #flex.product-item .product-picture{
+   left: 260px;
+   top: 260px;
+  }
+
+  #product-main-content .product-section #flex.product-item .product-picture img{
+   height: 120px;
+  }
+
+  #product-main-content .product-section #flex.product-item .product-icons img{
+   height: 70px;
+  }
+
+  #product-main-content .product-section #flex.product-item .product-icons{
+   right: 50px;
+   top: 55px;
+  }
+
+  #product-main-content .product-section #flex.product-item .product-icons ul li p{
+    width: 120px;
+    height: 280px;
+  }
+
+  /* kids2 */
+
+  #product-main-content .product-section #kids2.product-item .product-headline ul li.product-name img{
+    padding-top: 6px;
+  }
+
+  #product-main-content .product-section #kids2.product-item .product-picture{
+   right: 80px;
+   top: 35px;
+  }
+
+  #product-main-content .product-section #kids2.product-item .product-picture img{
+   height: 250px;
+  }
+
+  #product-main-content .product-section #kids2.product-item .product-icons img{
+   height: 70px;
+  }
+
+  #product-main-content .product-section #kids2.product-item .product-icons{
+   right: 210px;
+   top: 55px;
+  }
+
+  #product-main-content .product-section #kids2.product-item .product-icons ul li p{
+    width: 160px;
+    height: 280px;
+  }
+
+  /* crystal kids */
+
+  #product-main-content .product-section #crystal-kids.product-item .product-picture{
+   left: 300px;
+   top: 300px;
+  }
+
+  #product-main-content .product-section #crystal-kids.product-item .product-picture img{
+   height: 140px;
+  }
+
+  #product-main-content .product-section #crystal-kids.product-item .product-icons img{
+   height: 90px;
+  }
+
+  #product-main-content .product-section #crystal-kids.product-item .product-icons{
+   right: 55px;
+   top: 55px;
+  }
+
+  #product-main-content .product-section #crystal-kids.product-item .product-icons ul li p{
+    width: 150px;
+    height: 300px;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+  #left-main-banner .left-main-banner-wrapper,
+  .crystal-love-section,
+  .crystal-love-section .tab-content{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+ }
+
+  .crystal-love-section .nav-tabs li:first-child{
+   float: left;
+  }
+
+  .crystal-love-section .nav-tabs li:last-child{
+   float: right;
+  }
+
+.crystal-love-section .tab-content #for-girl:before{
+  left: 85%;
+}
+
+ #left-main-banner .left-main-banner-wrapper .lipzo-logo{
+   padding-bottom: 20px;
+   margin-top: -20px;
+ }
+
+  .crystal-love-section .description{
+    padding-top: 10px;
+    text-align: left;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #product-main-banner {
+    padding: 120px 0 0 0; 
+  }
+
+  #product-main-banner .picture-section .picture1{
+   top: 20%;
+   left: 50px;
+    width: 40%;
+  }
+
+  #product-main-banner .picture-section .picture2{
+    position: relative;
+    margin-left: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #product-main-banner .picture-section .small-star,
+   #product-main-banner .picture-section .big-star{
+    margin-left: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*------------------------------------------------------------
+  ---------------------PRODUCT-MAIN-CONTENT---------------------
+  -------------------------------------------------------------*/
+ 
+
+  #product-main-content{
+   padding: 0px;
+   padding-bottom: 50px;
+  }
+
+  #product-main-content .container{
+   padding: 0px;
+   margin: 0px;
+  }
+
+  #product-main-content .product-buttons{
+   margin-top: -20px;
+   margin-bottom: 22px;
+  }
+
+  #product-main-content .product-buttons .tabs a{
+   display: inline-block;
+  }
+
+  .btn-custom.btn-custom-product {
+    width: 200px;
+    height: 90px;
+    margin: 0px 8px 18px 8px;
+  }
+
+  .btn-custom.btn-custom-product.pro-for-man,
+  .btn-custom.btn-custom-product.ruby,
+  .btn-custom.btn-custom-product.wow,
+  .btn-custom.btn-custom-product.flex,
+  .btn-custom.btn-custom-product.kids2,
+  .btn-custom.btn-custom-product.crystal-kids { 
+   background-position: 50%;
+   background-size: 100%;
+  }
+
+  #product-main-content .product-section {
+    color: #7f7f7f;
+    font-size: 13px;
+  }
+
+  #product-main-content .product-section .m-product-item {
+    background: transparent;
+    background-color: #fff;
+    width: 100%;
+    height: 750px;
+    padding: 10px 20px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-left: -30px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline ul li.product-name img{
+    padding-top: 14px;
+    padding-left: 10px;
+  }
+
+  #product-main-content .product-section .m-product-item .desc{
+    margin-bottom: 5px;
+    list-style-position: inside;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 30px 10px 10px;
+    text-align: left;
+  }
+
+  #product-main-content .product-section .m-product-item .desc li{
+    margin-bottom: 5px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline ul li,
+  #product-main-content .product-section .m-product-item .product-icons ul li{
+   list-style-type: none;
+   list-style: none;
+   display: inline-block;
+  }
+
+
+  #product-main-content .product-section .m-product-item .product-icons ul li{
+    margin-right: 30px;
+    vertical-align: top;
+  }
+
+  #product-main-content .product-section .m-product-item .product-icons ul li p{
+    font-size: 13px;
+    line-height: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  #product-main-content .product-section .m-product-item .product-icons ul li img{
+   margin: 0 auto;
+  }
+
+  #product-main-content .product-section .m-product-item .product-picture{
+   position: relative;
+   padding: 0px 30px 0px 20px;
+  }
+
+  .swiper-container {
+   height: 750px;
+   width: 100%;
+  }
+  .swiper-slide {
+    height: 100%;
+    width: 100%;
+  }
+
+  .content-slide {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  /* Pro for man */ 
+  #product-main-content .product-section #pro-for-man.m-product-item .product-icons ul li:first-child{
+    float: left;
+    margin-left: -30px;
+  }
+
+  #product-main-content .product-section #pro-for-man.m-product-item .product-icons ul li:last-child{
+    float: right;
+  }
+
+  #product-main-content .product-section #pro-for-man.m-product-item .product-picture{
+   clear: both;
+  }
+
+  /* ruby */
+  #product-main-content .product-section #ruby.m-product-item .product-picture{
+   margin-top: -30px;
+  }
+
+  /* wow */
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li{
+    margin-right: 0px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li:first-child{
+    float: left;
+    margin-left: -30px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li:last-child{
+    float: right;
+    margin-right: 10px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-picture{
+    clear: both;
+  }
+
+  /* flex */
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li:first-child{
+    float: left;
+    margin-left: -30px;
+    margin-right: 0px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li:last-child{
+    float: right;
+    margin-right: 18px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-picture{
+    clear: both;
+  }
+
+  /* kids2 */
+  #product-main-content .product-section #kids2.m-product-item .product-icons ul li p{
+    width: 250px;
+    height: 60px;
+   
+  }
+
+  #product-main-content .product-section #kids2.m-product-item .product-picture img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+  }
+
+
+
+
+
+}
+
+/* Small Devices, custom product icon */
+@media only screen and (max-width : 650px){
+  #product-main-content .product-section .m-product-item,
+  .swiper-container {
+    height: 720px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-icons ul li p{
+    width: 140px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline .logo-red img{
+    width: 90px;
+    padding-top: 15px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline .product-name img{
+    height: 35px;
+  }
+
+  /* pro for man */
+  #product-main-content .product-section #pro-for-man.m-product-item .product-headline .product-name img{
+    margin-top: 4px;
+  }
+
+  /* ruby */
+  #product-main-content .product-section #ruby.m-product-item .product-headline .product-name img{
+    margin-top: 10px;
+  }
+
+  /* wow */
+
+  #product-main-content .product-section #wow.m-product-item .product-headline .product-name img{
+    margin-top: 2px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons img{
+    height: 60px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li p{
+    width: 120px;
+    height: 80px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li:last-child{
+    margin-right: 20px;
+  }
+
+
+  /* flex */
+  #product-main-content .product-section #flex.m-product-item .product-headline .product-name img{
+    margin-top: 3px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons img{
+    height: 60px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li p{
+    width: 120px;
+    height: 60px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li:last-child{
+    margin-right: 20px;
+  }
+
+  /* kids2 */
+  #product-main-content .product-section #kids2.m-product-item .product-headline .product-name img{
+    margin-top: 6px;
+  }
+
+  #product-main-content .product-section #kids2.m-product-item .product-icons ul li p{
+    height: 40px;
+  }
+
+
+  /* crystal-kids */
+  #product-main-content .product-section #crystal-kids.m-product-item .product-headline .product-name img{
+    margin-top: 6px;
+  }
+
+  #product-main-content .product-section #crystal-kids.m-product-item .product-icons ul li p{
+    width: 250px;
+  }
+
+  #product-main-content .product-section #crystal-kids.m-product-item .product-picture{
+    margin-top: -30px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  #main-container{
+    background-color: #861217;
+  }
+
+  #product-main-content .product-buttons{
+   margin-top: -45px;
+  }
+
+  .btn-custom.btn-custom-product {
+    width: 90px;
+    height: 50px;
+    margin: 0px 4px 12px 4px;
+    border-radius: 10px;
+  }
+
+  #product-main-content {
+    margin-bottom: 30px;
+  }
+
+  .crystal-love-section .nav-tabs{
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+   position: relative;
+  }
+  
+  .crystal-love-section .nav-tabs li{
+   width: 80px;
+   height: 22px;
+   margin-bottom: 20px;
+  }
+
+
+  .crystal-love-section .nav-tabs>li:last-child{
+    margin-right: 30px;
+  }
+
+  .crystal-love-section .tab-content #for-man:before{
+  top: 22px;
+  left: 10%;
+}
+
+.crystal-love-section .tab-content #for-girl:before{
+  top: 22px;
+  left: 78%;
+}
+
+  .nav-tabs>li>a[href='#for-man']{
+    background: url('../images/products/crystal-love-for-man-mobile.png') no-repeat 50% 50%;
+  }
+
+  .nav-tabs>li>a[href='#for-man']:hover,
+  .nav-tabs>li.active>a[href='#for-man'],
+  .nav-tabs>li.active>a[href='#for-man']:hover,
+  .nav-tabs>li.active>a[href='#for-man']:focus{
+    background: url('../images/products/crystal-love-for-man-hover-mobile.png') no-repeat 50% 50%;
+  }
+
+  .nav-tabs>li>a[href='#for-girl']{
+    background: url('../images/products/crystal-love-for-girl-mobile.png') no-repeat 50% 50%;
+  }
+
+  .nav-tabs>li>a[href='#for-girl']:hover,
+  .nav-tabs>li.active>a[href='#for-girl'],
+  .nav-tabs>li.active>a[href='#for-girl']:hover,
+  .nav-tabs>li.active>a[href='#for-girl']:focus{
+    background: url('../images/products/crystal-love-for-girl-hover-mobile.png') no-repeat 50% 50%;
+  }
+
+  #product-main-content .product-section .m-product-item,
+  .swiper-container {
+    height: 820px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-icons img{
+    width: 80px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-icons ul li p{
+    width: 110px;
+    height: 100px;
+  }
+
+  #product-main-content .product-section .m-product-item .product-headline .product-name img{
+    height: 28px;
+  }
+
+  /* pro for man */
+  #product-main-content .product-section #pro-for-man.m-product-item .product-headline .product-name img{
+    margin-top: 8px;
+  }
+
+  /* ruby */
+  #product-main-content .product-section #ruby.m-product-item .product-headline .product-name img{
+    margin-top: 10px;
+  }
+
+  /* wow */
+
+  #product-main-content .product-section #wow.m-product-item .product-headline .product-name img{
+    margin-top: 5px;
+  }
+
+  #product-main-content .product-section #wow.m-product-item .product-icons ul li:nth-child(2){
+    display: none;
+  }
+
+   #product-main-content .product-section #wow.m-product-item .product-icons img{
+    height: 80px;
+    width: auto;
+  }
+
+  /* flex */
+  #product-main-content .product-section #flex.m-product-item .product-headline .product-name img{
+    margin-top: 5px;
+  }
+
+  #product-main-content .product-section #flex.m-product-item .product-icons ul li:nth-child(2){
+    display: none;
+  }
+
+   #product-main-content .product-section #flex.m-product-item .product-icons img{
+    height: 80px;
+    width: auto;
+  }
+
+  /* kids2 */
+  #product-main-content .product-section #kids2.m-product-item .product-headline .product-name img{
+    margin-top: 8px;
+  }
+
+  #product-main-content .product-section #kids2.m-product-item .product-icons ul li p{
+    width: 180px;
+    height: 60px;
+  }
+
+
+  /* crystal-kids */
+  #product-main-content .product-section #crystal-kids.m-product-item .product-headline .product-name img{
+    margin-top: 6px;
+  }
+
+  #product-main-content .product-section #crystal-kids.m-product-item .product-icons ul li p{
+    width: 180px;
+    height: 80px;
+  }
+
+  #product-main-content .product-section #crystal-kids.m-product-item .product-picture{
+    margin-top: -30px;
+  }
+
+  #face-page #footer ul.copyright li,
+  #product-page #footer ul.copyright li{
+    width: 100%;
+  }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+
+
